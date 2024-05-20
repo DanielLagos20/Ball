@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+
+.container-ball {
+  background-color: #1b7a33;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.ball {
+  position: absolute;
+}
+
+.ball img {
+  width: 100px;
+  height: 100px;
+}
